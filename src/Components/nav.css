@@ -1,0 +1,221 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.logoh4{
+    rotate: 90deg;
+    margin-right: 15px;
+}
+.logoh1{
+    font: normal normal bold 41px/57px Montserrat;
+}
+
+
+
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px 0px;
+}
+
+.Linkline{
+    text-decoration: none;
+}
+
+.img{
+    width: 90%;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 50px;
+}
+
+.box1{
+    width: 65%;
+    /* background-color: blue; */
+}
+
+.box2{
+    width: 31%;
+    padding: 0% 2%;
+    /* background-color: blueviolet; */
+}
+
+.theh1{
+    font: normal normal medium 30px/30px Montserrat;
+    color: #000000;
+    border-bottom: 3px solid #F08080;
+    margin-left: 10px;
+    width: 12%;
+}
+
+.name{
+    font: normal normal medium 26px/35px Montserrat;
+    color: #000000;
+}
+
+.description{
+    font: normal normal normal 17px/23px Open Sans;
+    color: #908D8D;
+}
+
+.category{
+    font: normal normal medium 17px/20px Montserrat;
+    display: inline;
+    color: #404040;
+}
+
+.date{
+    font: normal normal medium 17px/23px Acumin Pro;
+    letter-spacing: 0.85px;
+    color: #404040;
+    opacity: 0.24;
+    display: inline;
+}
+
+.inlinediv{
+    display: flex;
+    padding: 20px 5px;
+}
+
+.forimg{
+    width: 50%;
+}
+
+.forcontent{
+    width: 50%;
+}
+
+.Topimg{
+    width: 98%;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.Topname{
+    font: normal normal medium 16px/25px Montserrat;
+    color: #000000;
+    font-size: 20px
+}
+
+.TopContainer{
+    display: flex;
+}
+
+.TCpart1{
+    width: 70%;
+}
+
+.TCpart2{
+    width: 30%;
+}
+
+.TCpart2p{
+    color: #F0F0F0;
+    position: relative;
+    left: 60%;
+    top: 30%;
+    font-size: 76px;font: normal normal medium 74px/101px Fira Sans;
+}
+
+.smalltopblog{
+    display: flex;
+    padding: 5% 0%;
+}
+
+.smalltopimg{
+    width: 150px;
+    /* height: 100px; */
+}
+
+.smalltoptext{
+    padding-left: 5%;
+}
+
+.smalltopname{
+    font-size: 12px;
+}
+
+.smalltopp{
+    color: #F0F0F0;
+    position: relative;
+    font-size: 76px;font: normal normal medium 74px/101px Fira Sans;
+}
+
+.foradvertisement{
+    padding: 10% 0%;
+}
+
+.advertisementP{
+    text-align: center;
+    border: 2px solid black;
+    width: 100%;
+    height: 1000px;
+}
+
+
+.home{
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-right: 5%;
+}
+
+.sliderimg{
+    height: 550px;
+    width: 100%;
+    border-radius: 25px;
+}
+.sliderimg2{
+    height: 273px;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.homecontainer{
+    display: flex;
+    width: 100%;
+}
+
+.Csliderimg1{
+    width: 70%;
+    border: 5px solid white;
+}
+.Csliderimg2{
+    width: 30%;
+    border: 5px solid white;
+}
+
+.Hcontainer2{
+    display: flex;
+    /* justify-content: space-evenly; */
+    column-gap: 5%;
+    flex-wrap: wrap;
+    padding: 2% 0px;
+    width: 100%;
+}
+
+.HCchildbox{
+    width: 30%;
+    text-align: center;
+}
+
+.latestIMG{
+    width: 100%;
+    height: 350px;
+    border-radius: 15px;
+}
+
+.navbaar{
+    box-shadow: 1px 5px 15px lightgray;
+}
+
+
