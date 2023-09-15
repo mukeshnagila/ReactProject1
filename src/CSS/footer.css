@@ -1,0 +1,83 @@
+.Footer{
+    text-align: center;
+    background-color: midnightblue;
+    padding: 1% 5%;
+    box-shadow: -5px -5px 60px rgb(51, 51, 51);
+    background-image: linear-gradient(45deg, red, transparent);
+}
+
+.Fcontainer{
+    display: flex;
+    width: 100%;
+    margin-right: 2%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Fbox1{
+    width: 30%;
+    line-height: 30px;
+}
+
+.Fbox2{
+    width: 30%;
+    line-height: 30px;
+    font-style: italic;
+    margin-left: 40px;
+}
+
+.Fbox3{
+    width: 30%;
+    line-height: 30px;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: \;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2% 8%;
+}
+
+.copyright{
+    background-image: linear-gradient(360deg, rgb(55, 0, 255), transparent);
+    min-height: 15px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 11%;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+
+@media only screen and (min-width: 200px) and (max-width:700px) {
+    
+    .Fcontainer{
+        display: block;
+        width: 100%;
+        margin-right: 0%;
+    }
+    
+    .Fbox1{
+        width: 100%;
+    }
+    
+    .Fbox2{
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .Fbox3{
+        width: 100%;
+    }
+
+    .copyright{
+        font-size: 8px;
+    }
+    
+}

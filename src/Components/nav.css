@@ -218,4 +218,128 @@
     box-shadow: 1px 5px 15px lightgray;
 }
 
+.slider{
+    width: 90%;
+    height: 600px;
+    padding: 2% 5%;
+}
+
+/* .sliderbtndiv{
+    padding: 0% 5%;
+}
+
+.btnslider1{
+    min-width: 80px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    box-shadow: 2px 3px 5px gray;
+    border-radius: 5px;        
+}
+
+.btnslider2{
+    min-width: 80px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    box-shadow: 2px 3px 5px gray;
+    border-radius: 5px;  
+    float: right;      
+} */
+
+.image-slider {
+    position: relative;
+  }
+  
+  .image-slider img {
+    max-width: 100%;
+    max-height: 300px;
+  }
+  
+  .slider-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 25px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .slider-arrow:hover {
+    background: rgba(0, 0, 0, 0.7);
+  }
+  
+  .prev {
+    left: 110px;
+  }
+  
+  .next {
+    right: 110px;
+  }
+  
+
+
+
+/* /////////////////////////////////////////// media Querie /////////////////////////////////////////////// */
+
+
+@media only screen and (min-width: 200px) and (max-width:700px) {
+
+    .img{
+        width: 100%;
+    }
+    
+    .container{
+        display: block;
+        padding: 10px 10px;
+    }
+    
+    .box1{
+        width: 100%;
+    }
+    
+    .box2{
+        width: 97%;
+        padding: none;
+        overflow-x: hidden;
+    }
+    
+    .inlinediv{
+        display: block;
+    }
+    
+    .forimg{
+        width: 100%;
+    }
+    
+    .forcontent{
+        width: 100%;
+    }
+    
+    .smalltopimg{
+        height: 100px;
+    }
+    
+    .advertisementP{
+        height: 600px;
+    }
+
+    .slider{
+        height: 200px;
+    }
+
+    .prev {
+        left: 40px;
+    }
+      
+    .next {
+        right: 40px;
+    }
+    
+}
+
 
