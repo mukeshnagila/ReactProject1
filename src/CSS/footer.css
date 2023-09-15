@@ -55,7 +55,9 @@ img{
     text-shadow: 3px 3px 5px rgb(0, 0, 0);
 }
 
-@media only screen and (min-width: 200px) and (max-width:700px) {
+/* //////////////////////////// Media Quariy For Mobile //////////////////////////////// */
+
+@media only screen and (min-width: 200px) and (max-width:750px) {
     
     .Fcontainer{
         display: block;
@@ -70,14 +72,41 @@ img{
     .Fbox2{
         width: 100%;
         margin-left: 0px;
+        padding-bottom: 1%;
     }
     
     .Fbox3{
         width: 100%;
+        display: none;
     }
 
     .copyright{
         font-size: 8px;
+    }
+    
+}
+
+/* //////////////////////////// Media Quariy For Tab //////////////////////////////// */
+
+@media only screen and (min-width: 200px) and (max-width:1200px) {
+    
+    .Fcontainer{
+        display: flex;
+    }
+    
+    .Fbox1{
+        width: 30%;
+        line-height: 25px;
+        font-size: 13px;
+    }
+    
+    .Fbox2{
+        width: 30%;
+        line-height: 20px;
+    }
+    
+    .Fbox3{
+        width: 30%;
     }
     
 }

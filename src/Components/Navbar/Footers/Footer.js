@@ -3,6 +3,14 @@ import {NavLink} from "react-router-dom";
 import LastFooter from "./LastFooter";
 
 function Footer(){
+
+    const scrollToTop = () => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth", 
+        });
+      };
+
     return(
         <>  
             <div className="Footer">
@@ -11,7 +19,7 @@ function Footer(){
                         <div className='logo'>
                             <h4 className='logoh4'>The</h4><h1 className='logoh1'>Siren</h1>
                         </div><hr/><br/>
-                        <h3>Contact: 7728827144</h3>
+                        <h3>Contact: +91 772 882 7144</h3>
                         <h4>Email: nagilamukesh43@gmail.com</h4>
                         <h4>Address: Pithoragarh, Uttrakhand</h4>
                         <div className="icons">
@@ -27,12 +35,12 @@ function Footer(){
                     </div>
                     <div className="Fbox3">
                         <h3>Quick Link's</h3>                    
-                        <div><NavLink style={({isActive}) => ({color : isActive ? "blue" : "White"})} className='Linkline' to="/" >Home</NavLink></div>
-                        <div><NavLink style={({isActive}) => ({color : isActive ? "blue" : "White"})} className='Linkline' to="/Bollywood" >Bollywood</NavLink></div>
-                        <div><NavLink style={({isActive}) => ({color : isActive ? "blue" : "White"})} className='Linkline' to="/Technology" >Technology</NavLink></div>
-                        <div><NavLink style={({isActive}) => ({color : isActive ? "blue" : "White"})} className='Linkline' to="/Hollywood" >Hollywood</NavLink></div>
-                        <div><NavLink style={({isActive}) => ({color : isActive ? "blue" : "White"})} className='Linkline' to="/Fitness" >Fitness</NavLink></div>
-                        <div><NavLink style={({isActive}) => ({color : isActive ? "blue" : "White"})} className='Linkline' to="/Food" >Food</NavLink></div>
+                        <div><NavLink onClick={scrollToTop} style={({isActive}) => ({color : isActive ? "blue" : "White"})} className='Linkline' to="/" >Home</NavLink></div>
+                        <div><NavLink onClick={scrollToTop} style={({isActive}) => ({color : isActive ? "blue" : "White"})} className='Linkline' to="/Bollywood" >Bollywood</NavLink></div>
+                        <div><NavLink onClick={scrollToTop} style={({isActive}) => ({color : isActive ? "blue" : "White"})} className='Linkline' to="/Technology" >Technology</NavLink></div>
+                        <div><NavLink onClick={scrollToTop} style={({isActive}) => ({color : isActive ? "blue" : "White"})} className='Linkline' to="/Hollywood" >Hollywood</NavLink></div>
+                        <div><NavLink onClick={scrollToTop} style={({isActive}) => ({color : isActive ? "blue" : "White"})} className='Linkline' to="/Fitness" >Fitness</NavLink></div>
+                        <div><NavLink onClick={scrollToTop} style={({isActive}) => ({color : isActive ? "blue" : "White"})} className='Linkline' to="/Food" >Food</NavLink></div>
                     </div>
                 </div>
             </div>

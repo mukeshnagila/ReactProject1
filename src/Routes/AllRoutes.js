@@ -9,9 +9,16 @@ import Error from '../Components/ForError/Error';
 import {Routes, Route, NavLink} from "react-router-dom";
 import ContextStore from '../ContextStore/ContextStore';
 import Footer from '../Components/Navbar/Footers/Footer';
-import Slider from '../Slider/Slider';
 
 function AllRoutes(){
+
+    const scrollToTop = () => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth", 
+        });
+      };
+
   return(
 
     <div>    
@@ -22,18 +29,15 @@ function AllRoutes(){
                 </div>
                 
                 <div className='links'>
-                    <div><NavLink style={({isActive}) => ({color : isActive ? "blue" : "green"})} className='Linkline' to="/" >Home</NavLink></div>
-                    <div><NavLink style={({isActive}) => ({color : isActive ? "blue" : "green"})} className='Linkline' to="/Bollywood" >Bollywood</NavLink></div>
-                    <div><NavLink style={({isActive}) => ({color : isActive ? "blue" : "green"})} className='Linkline' to="/Technology" >Technology</NavLink></div>
-                    <div><NavLink style={({isActive}) => ({color : isActive ? "blue" : "green"})} className='Linkline' to="/Hollywood" >Hollywood</NavLink></div>
-                    <div><NavLink style={({isActive}) => ({color : isActive ? "blue" : "green"})} className='Linkline' to="/Fitness" >Fitness</NavLink></div>
-                    <div><NavLink style={({isActive}) => ({color : isActive ? "blue" : "green"})} className='Linkline' to="/Food" >Food</NavLink></div>
+                    <div><NavLink onClick={scrollToTop} style={({isActive}) => ({color : isActive ? "blue" : "green"})} className='Linkline' to="/" >Home</NavLink></div>
+                    <div><NavLink onClick={scrollToTop} style={({isActive}) => ({color : isActive ? "blue" : "green"})} className='Linkline' to="/Bollywood" >Bollywood</NavLink></div>
+                    <div><NavLink onClick={scrollToTop} style={({isActive}) => ({color : isActive ? "blue" : "green"})} className='Linkline' to="/Technology" >Technology</NavLink></div>
+                    <div><NavLink onClick={scrollToTop} style={({isActive}) => ({color : isActive ? "blue" : "green"})} className='Linkline' to="/Hollywood" >Hollywood</NavLink></div>
+                    <div><NavLink onClick={scrollToTop} style={({isActive}) => ({color : isActive ? "blue" : "green"})} className='Linkline' to="/Fitness" >Fitness</NavLink></div>
+                    <div><NavLink onClick={scrollToTop} style={({isActive}) => ({color : isActive ? "blue" : "green"})} className='Linkline' to="/Food" >Food</NavLink></div>
                 </div>
                 <hr></hr>
-            </div>
-        </div>
-        <div>
-            <Slider />
+            </div><br/>
         </div>
 
         <div>
@@ -48,7 +52,7 @@ function AllRoutes(){
                 <Route path="*" element={<Error/>} />
             </Routes>
             </ContextStore>
-        </div>
+        </div><br/>
 
 
         <div>
