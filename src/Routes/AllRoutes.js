@@ -1,4 +1,5 @@
 import '../Components/nav.css';
+import '../Components/NewPage/details.css';
 import Home from '../Components/Navbar/Headers/Home';
 import Bollywood from '../Components/Navbar/Headers/Bollywood';
 import Technology from '../Components/Navbar/Headers/Technology';
@@ -9,6 +10,7 @@ import Error from '../Components/ForError/Error';
 import {Routes, Route, NavLink} from "react-router-dom";
 import ContextStore from '../ContextStore/ContextStore';
 import Footer from '../Components/Navbar/Footers/Footer';
+import Details from '../Components/NewPage/Details';
 
 function AllRoutes(){
 
@@ -50,6 +52,7 @@ function AllRoutes(){
                 <Route path="/Fitness" element={<Fitness/>} />
                 <Route path="/Food" element={<Food/>} />
                 <Route path="*" element={<Error/>} />
+                <Route path="/Details/:id" element={<Details />} />
             </Routes>
             </ContextStore>
         </div><br/>

@@ -302,7 +302,11 @@
   .next {
     right: 110px;
   }
-  
+
+  .linkunderline{
+    text-decoration: none;
+    color: #000000;
+  }
 
 
 
@@ -368,6 +372,29 @@
       
     .next {
         right: 40px;
+    }
+
+    .HCchildbox{
+        width: 100%;
+        padding: 2% 0%;
+    }
+
+    .homecontainer{
+        display: none;
+    }
+    
+    .startsliderhome{
+        padding-bottom: 0%;
+        display: inline;
+    }
+
+    .image-slider{
+        padding-top: 4%;
+        margin-bottom: -50px;
+    }
+
+    .image-slider img{
+        height: 250px;
     }
     
 }

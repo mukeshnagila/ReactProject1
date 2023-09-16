@@ -55,6 +55,20 @@ img{
     text-shadow: 3px 3px 5px rgb(0, 0, 0);
 }
 
+.forerror{
+    padding-bottom: 0%;
+    width: 100%;
+}
+
+.errimg{
+    width: 100%;
+    height: 30px;
+}
+
+
+
+
+
 /* //////////////////////////// Media Quariy For Mobile //////////////////////////////// */
 
 @media only screen and (min-width: 200px) and (max-width:750px) {
@@ -72,7 +86,8 @@ img{
     .Fbox2{
         width: 100%;
         margin-left: 0px;
-        padding-bottom: 1%;
+        padding-bottom: 1.5%;
+        line-height: 20px;
     }
     
     .Fbox3{
@@ -88,7 +103,7 @@ img{
 
 /* //////////////////////////// Media Quariy For Tab //////////////////////////////// */
 
-@media only screen and (min-width: 200px) and (max-width:1200px) {
+@media only screen and (min-width: 750px) and (max-width:1200px) {
     
     .Fcontainer{
         display: flex;
