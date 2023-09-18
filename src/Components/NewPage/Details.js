@@ -1,6 +1,8 @@
 import React, { useContext } from 'react'
 import { useParams } from 'react-router-dom';
 import { store } from '../../ContextStore/ContextStore';
+import { NavLink } from "react-router-dom";
+
 
 function Details() {
 
@@ -9,6 +11,13 @@ function Details() {
 
     const id = useParams().id;
     console.log(id);
+
+    const scrollToTop = () => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth", 
+        });
+    };
 
     return (
         <>
@@ -37,8 +46,8 @@ function Details() {
                                         </div>
 
                                         <div className='DisplayData'>
-                                               <div>
-                                                        <img className='displayimg' src={item.image} alt='Image'></img><br/><br/>
+                                               <div key={index}>
+                                                        <img className='displayimg' src={item.image} alt='DisplayImage'></img><br/><br/>
                                                         <h2 className='displayname'>{item.name}</h2><br/>
                                                         <p className='displaydis'>{item.description}</p>
                                                         
@@ -73,8 +82,10 @@ function Details() {
                                     return(
                                         <>
                                             <div className="HCchildbox" key={index}>
+                                            <NavLink onClick={scrollToTop} className= "linkunderline" to={`/Details/${item.id}`}>
                                                 <img className="latestIMG" src={item.image} alt="HomeContentImg"></img>
                                                 <h2 className="name">{item.name}</h2><br />
+                                            </NavLink>    
                                                 <p className="description">{item.description.slice(0, 250)}.......</p>
                                             </div>
                                         </>
