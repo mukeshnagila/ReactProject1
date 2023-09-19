@@ -1,5 +1,5 @@
 // src/components/ImageSlider.js
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 
 const ImageSlider = () => {
   // Define an array of image URLs
@@ -11,15 +11,13 @@ const ImageSlider = () => {
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const nextSlide = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-  };
+  const nextSlide = useCallback(() => {
+        setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+  }, [images.length]);
 
-  const prevSlide = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? images.length - 1 : prevIndex - 1
-    );
-  };
+  const prevSlide = useCallback(() => {
+        setCurrentIndex((prevIndex) => prevIndex === 0 ? images.length - 1 : prevIndex - 1);
+  }, [images.length]);
 
   useEffect(() => {
     const interval = setInterval(() => {
