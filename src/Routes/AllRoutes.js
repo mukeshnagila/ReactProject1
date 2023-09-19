@@ -11,8 +11,11 @@ import {Routes, Route, NavLink} from "react-router-dom";
 import ContextStore from '../ContextStore/ContextStore';
 import Footer from '../Components/Navbar/Footers/Footer';
 import Details from '../Components/NewPage/Details';
+import { useState } from 'react';
 
 function AllRoutes(){
+
+    const [menuOpen, SetMenuOpen] = useState(false);
 
     const scrollToTop = () => {
         window.scrollTo({
@@ -29,14 +32,23 @@ function AllRoutes(){
                 <div className='logo'>
                     <h4 className='logoh4'>The</h4><h1 className='logoh1'>Siren</h1>
                 </div>
-                
-                <div className='links'>
-                    <div><NavLink onClick={scrollToTop} style={({isActive}) => ({color : isActive ? "blue" : "green"})} className='Linkline' to="/" >Home</NavLink></div>
-                    <div><NavLink onClick={scrollToTop} style={({isActive}) => ({color : isActive ? "blue" : "green"})} className='Linkline' to="/Bollywood" >Bollywood</NavLink></div>
-                    <div><NavLink onClick={scrollToTop} style={({isActive}) => ({color : isActive ? "blue" : "green"})} className='Linkline' to="/Technology" >Technology</NavLink></div>
-                    <div><NavLink onClick={scrollToTop} style={({isActive}) => ({color : isActive ? "blue" : "green"})} className='Linkline' to="/Hollywood" >Hollywood</NavLink></div>
-                    <div><NavLink onClick={scrollToTop} style={({isActive}) => ({color : isActive ? "blue" : "green"})} className='Linkline' to="/Fitness" >Fitness</NavLink></div>
-                    <div><NavLink onClick={scrollToTop} style={({isActive}) => ({color : isActive ? "blue" : "green"})} className='Linkline' to="/Food" >Food</NavLink></div>
+
+                <div className='menu' onClick={() => {
+                    SetMenuOpen(!menuOpen);
+                }}>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                </div>
+                <div id="close" className={menuOpen ? "open" : ""}>
+                    <div className='links'>
+                        <div className='clickon'><NavLink onClick={scrollToTop} style={({isActive}) => ({color : isActive ? "blue" : "green"})} className='Linkline' to="/" >Home</NavLink></div>
+                        <div className='clickon'><NavLink onClick={scrollToTop} style={({isActive}) => ({color : isActive ? "blue" : "green"})} className='Linkline' to="/Bollywood" >Bollywood</NavLink></div>
+                        <div className='clickon'><NavLink onClick={scrollToTop} style={({isActive}) => ({color : isActive ? "blue" : "green"})} className='Linkline' to="/Technology" >Technology</NavLink></div>
+                        <div className='clickon'><NavLink onClick={scrollToTop} style={({isActive}) => ({color : isActive ? "blue" : "green"})} className='Linkline' to="/Hollywood" >Hollywood</NavLink></div>
+                        <div className='clickon'><NavLink onClick={scrollToTop} style={({isActive}) => ({color : isActive ? "blue" : "green"})} className='Linkline' to="/Fitness" >Fitness</NavLink></div>
+                        <div className='clickon'><NavLink onClick={scrollToTop} style={({isActive}) => ({color : isActive ? "blue" : "green"})} className='Linkline' to="/Food" >Food</NavLink></div>
+                    </div>
                 </div>
                 <hr></hr>
             </div><br/>

@@ -89,7 +89,9 @@ const Fitness = () => {
                                         })}
 
                                     <div className="foradvertisement">
-                                        <p className="advertisementP2">Advertisement</p>
+                                        <p className="advertisementP2">
+                                                <img className="advertisementP2" src="https://cdn.dribbble.com/users/5245759/screenshots/11294208/media/fa6a3326356fd9ab86892ee2036eb22f.gif" alt="AddImg"></img>
+                                        </p>
                                     </div>
 
                                     <h1 className="theh1"> Some_New- </h1><br/>
@@ -116,7 +118,9 @@ const Fitness = () => {
 
 
                                     <div className="foradvertisement">
-                                        <p className="advertisementP2">Advertisement</p>
+                                        <p className="advertisementP2">
+                                                <img className="advertisementP2" src="https://i.pinimg.com/originals/e0/c5/04/e0c50400782d0cd7b1bfe6f200606692.gif" alt="AddImg"></img>
+                                        </p>
                                     </div>
                                     
                                         

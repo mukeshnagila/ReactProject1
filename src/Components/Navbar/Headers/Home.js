@@ -61,7 +61,7 @@ const Home = () => {
 
                     <h1 className="theh1"> The_Latest.... </h1><br/>
                     <div className="Hcontainer2">
-                        {cdata.filter((item) => item.category === "LatestImg").map((item, index) => {
+                        {cdata.filter((item) => item.category === "LatestImg" && item.id % 3 === 0).map((item, index) => {
                             return(
                                 <>
                                     <div className="HCchildbox" key={index}>
@@ -149,7 +149,9 @@ const Home = () => {
                                     })}
 
                                 <div className="foradvertisement">
-                                    <p className="advertisementP">Advertisement</p>
+                                    <p className="advertisementP">
+                                        <img className="advertisementP" src="https://cdn.dribbble.com/users/5297140/screenshots/13995477/media/3769cfb75e2e53734862cc0a3bc1c732.gif" alt="AddImg"></img>
+                                    </p>
                                 </div>
 
                                 <h1 className="theh1"> Trands- </h1><br/>
@@ -178,7 +180,9 @@ const Home = () => {
 
 
                                 <div className="foradvertisement">
-                                    <p className="advertisementP">Advertisement</p>
+                                    <p className="advertisementP">
+                                        <img className="advertisementP" src="https://static.wixstatic.com/media/5f69f7_6e9dedfe508244e8a1f2734a39236821~mv2.gif" alt="AddImg"></img>
+                                    </p>
                                 </div>
                                 
                                     

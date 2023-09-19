@@ -314,7 +314,10 @@
 
 
 @media only screen and (min-width: 200px) and (max-width:750px) {
-
+    .logo {
+        justify-content: start;
+    }
+    
     .img{
         width: 100%;
     }
@@ -325,7 +328,7 @@
     }
 
     .startslider{
-        padding: 6% 0%;
+        padding: 0% 0%;
     }
     
     .slider{
@@ -389,13 +392,59 @@
     }
 
     .image-slider{
-        padding-top: 4%;
+        padding-top: 0%;
         margin-bottom: -50px;
     }
 
     .image-slider img{
         height: 250px;
     }
+
+
+/* ///////////////// For NavBar ////////////////// */
+    
+
+    .menu{
+        position: absolute;
+        top: 0.75rem;
+        right: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 2.25rem;
+        height: 2rem;
+        cursor: pointer;
+    }
+
+    .menu span {
+            height: 0.4rem;
+            width: 100%;
+            background-color: #66d3ccf0;
+            border-radius: 0.2rem;
+    }
+
+    .links{
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        margin: 0.2rem 0.5rem;
+        padding: 0%;
+        line-height: 23px;
+    }
+
+    .clickon:hover{
+        background-color: #a2b5f2;
+    }
+
+    #close{
+        display: none;
+    }
+
+    #close.open{
+        display: flex;
+    }
+
+
     
 }
 

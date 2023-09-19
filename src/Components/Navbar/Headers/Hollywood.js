@@ -90,7 +90,9 @@ const Hollywood = () => {
                                         })}
 
                                     <div className="foradvertisement">
-                                        <p className="advertisementP2">Advertisement</p>
+                                        <p className="advertisementP2">
+                                                <img className="advertisementP2" src="https://media.tenor.com/kmtDPEtCbh4AAAAM/animated-banner-animated-gif.gif" alt="AddImg"></img>
+                                        </p>
                                     </div>
 
                                     <h1 className="theh1"> More- </h1><br/>
@@ -117,7 +119,9 @@ const Hollywood = () => {
 
 
                                     <div className="foradvertisement">
-                                        <p className="advertisementP2">Advertisement</p>
+                                        <p className="advertisementP2">
+                                                <img className="advertisementP2" src="https://media.tenor.com/TJ9CXB8Q9XMAAAAM/black-friday-sale-black-friday.gif" alt="AddImg"></img>
+                                        </p>
                                     </div>
                                     
                                         

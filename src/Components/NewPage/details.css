@@ -104,6 +104,15 @@
     padding: 2% 5%;
 }
 
+.pcolor{
+    color: #A2A2A2;
+}
+
+.namecolor{
+    font-size: 16px;
+    color: #000000;
+}
+
 /* /////////////////////////////////////////// media Querie for Tab /////////////////////////////////////////////// */
 
 
@@ -126,7 +135,7 @@
 @media only screen and (min-width: 200px) and (max-width:750px) {
 
     .detailH1{
-        padding-top: 15%;
+        padding-top: 4%;
     }
 
     .newpageblog {

@@ -1014,6 +1014,54 @@ const ContextStore = (props) => {
                     category: "LatestImg",
                     date: "13/08/2023"
                   },
+                  {
+                    id: 117,
+                    image: "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201403/natwar-2-5_650_032314022023.jpg?size=690:388",
+                    name: "Natwar Singh writes on champion of the downtrodden Dr BR Ambedkar",
+                    description: "The author of the book 'Ambedkar', is a member of The Planning Commission, an establishment totally or almost totally lacking creativity, innovation or imagination. Professor Jadhav is a distinguished exception. He studied in the United States, obtaining PhD in Economics. The last worthwhile book on Ambedkar was written by Dr. Dhananjay Keer. It was published in 1954. Dr. B.R. Ambedkar was arguably among the most brilliant Indian intellectuals of the 20th century. His life is a triumph of character over circumstances. He,for the first thirty five years of his life was subjected to the most appalling humiliations, brutal discrimination and indignities for being an untouchable. The dice was loaded against him right from his birth. He was born in a Mahar family on 14 April 1893. He died at the age of fifty six on 6th December 1956. He made it to the Elphiston College in Bombay. He could neither buy books nor clothes. He was lent books by one of his professors who also gave him clothes. At the age of 22, he was given scholarship by the enlightened Gaikward of Baroda, which enable him to join Columbia University in New York. He passed his M.A and obtained a PhD with high distinction. Similarly he did exceptionally at the London School of Economics. THE LOT of the untouchables in India were worse then that of Negros (Blacks) in America.",
+                    category: "LatestImg",
+                    date: "13/08/2023"
+                  },
+                  {
+                    id: 118,
+                    image: "https://akm-img-a-in.tosshub.com/indiatoday/images/media_bank/202309/iphone-15-130457804-16x9_2.jpg?VersionId=iO4iVru_25JPsCvstMumHztE2zcNn.uj&size=690:388",
+                    name: "4 best iPhone 15 alternatives you can buy in India right now",
+                    description: "While the iPhone 15 is undoubtedly an impressive device, the smartphone market offers a plethora of alternatives that cater to various preferences and budgets. Whether you prioritise camera performance, display quality, or overall user experience, the options listed in this article are some of the best available in India right now. Each of these smartphones brings its own unique strengths to the table, ensuring that you can find the perfect device to suit your needs. Ultimately, the choice boils down to your specific requirements and the features that matter most to you. Take the time to compare and consider these options, and you'll undoubtedly find a smartphone that exceeds your expectations.",
+                    category: "LatestImg",
+                    date: "13/08/2023"
+                  },
+                  {
+                    id: 119,
+                    image: "https://magazine.education.investing.com/wp-content/uploads/2021/09/Untitled-design-2022-07-18T170328.202-768x499.jpg",
+                    name: "Commonly Eaten Foods That Are Bad for Your Health and Your Wallet",
+                    description: "We all lead busy lives, and it can be hard to remember to eat healthily. Sometimes, it’s easier to just grab food off the shelf, thinking only of the convenience and not of the nutritional value. Processed foods are always on-hand, which is why they make so much money for manufacturers. And they’ve saved us time and energy in the past. But, at what cost? Many of the products on this list are staples of our daily diet, from Coke to Twinkies. However, if not eaten in strict moderation (or avoided completely) they can lead to long-term health problems, according to cardiologists and other professionals. Some of these products are clearly harmful, but because they’re lucrative moneymakers they stay on the shelves anyway. Others are less obvious, but when eaten in great quantities can have nasty side effects.",
+                    category: "LatestImg",
+                    date: "13/08/2023"
+                  },
+                  {
+                    id: 120,
+                    image: "https://magazine.education.investing.com/wp-content/uploads/2023/07/Article-Image-SportsBloopers-Basketball-Face-768x499.jpeg",
+                    name: "Most Expensive Sports Bloopers In History",
+                    description: "People all over the world love sports, and watching and playing them is a huge part of their day-to-day lives. According to Statista, in America alone, over 57 million people watched sports content at least once per day, including competitions like football, soccer, basketball, baseball, volleyball, and more. Sports bloopers, therefore, are everywhere, no matter whether they are caught by Fox , ESPN, NBC, or international cameras. This list compiles some of sports’ most famous bloopers, involving players, reporters, mascots, and unruly fans. ",
+                    category: "LatestImg",
+                    date: "13/08/2023"
+                  },
+                  {
+                    id: 121,
+                    image: "https://magazine.education.investing.com/wp-content/uploads/2023/06/Article-Image-RoyalVacation-Whistler-Canada-768x499.jpeg",
+                    name: "Royal Vacations: The Favorite Destinations Of The Royal Family",
+                    description: "The British Royal Family have had the luxury of traveling to some of the most stunning places in the world for their holidays. From skiing in the Swiss Alps to island-hopping in the Caribbean, their trips never fail to capture the public’s attention. Here’s a look at some of the best places the Royals have visited on vacation, why they make such great holiday spots, and how much it would cost to holiday like a member of the British Royal Family. Whether you’re looking for a luxurious getaway or simply looking for a way to live vicariously through others without stalking strangers on META, this should do the trick.",
+                    category: "LatestImg",
+                    date: "13/08/2023"
+                  },
+                  {
+                    id: 122,
+                    image: "https://magazine.education.investing.com/wp-content/uploads/2023/07/Article-Image-MovieTVMistakes-Braveheart-Alamy-LP-768x499.jpg",
+                    name: "Biggest Movie & TV Mistakes of All Time",
+                    description: "Lights, camera, oops! While the magic of Hollywood often enchants us with flawless storytelling and breathtaking visuals, every once in a while, the stars align to give us something unexpected – movie and TV mistakes! These delightful slip-ups and continuity errors have become the hidden gems that keep us laughing, debating, and marveling at the behind-the-scenes complexities of the entertainment industry. So, grab some popcorn, settle into your comfiest seat, and get ready to embark on a joyride through the world of cinematic bloopers and blunders. From iconic classics to the latest blockbusters, it’s time to celebrate the human side of Hollywood and embrace the imperfections that make our favorite stories even more memorable. ",
+                    category: "LatestImg",
+                    date: "13/08/2023"
+                  },
                   
     ])
     return(
