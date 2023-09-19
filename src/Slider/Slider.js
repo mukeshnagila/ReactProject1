@@ -22,23 +22,21 @@ const ImageSlider = () => {
   };
 
   useEffect(() => {
-    // Automatically advance to the next slide every 3 seconds (adjust the interval as needed)
     const interval = setInterval(() => {
       nextSlide();
-    }, 3000); // 3 seconds
+    }, 3000); 
 
-    // Clear the interval when the component unmounts to prevent memory leaks
     return () => clearInterval(interval);
-  }, []);
+  }, [nextSlide]);
 
   return (
     <div className="image-slider">
       <img className='slider' src={images[currentIndex]} alt={`Slide ${currentIndex + 1}`} />
             <button className="slider-arrow prev" onClick={prevSlide}>
-                &#9664; {/* Unicode character for left arrow */}
+                &#9664; 
             </button>
             <button className="slider-arrow next" onClick={nextSlide}>
-                &#9654; {/* Unicode character for right arrow */}
+                &#9654; 
             </button>
     </div>
   );
