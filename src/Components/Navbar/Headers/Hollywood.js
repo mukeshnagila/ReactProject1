@@ -68,7 +68,7 @@ const Hollywood = () => {
                                             )
                                         })}
                                     </div><br/><hr/>
-                                        {cdata.filter((item) => item.category === "TopHollywoodSmall").map((item, index) => {
+                                        {cdata.filter((item) => item.category === "Top Holly").map((item, index) => {
                                             return(
                                                 <div key={index}>
                                                     <div className="smalltopblog">

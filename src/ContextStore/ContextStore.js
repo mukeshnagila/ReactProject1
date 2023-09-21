@@ -520,7 +520,7 @@ const ContextStore = (props) => {
                     image: "https://thefilm742.files.wordpress.com/2023/06/img_9565.jpg?w=768&h=425&crop=1",
                     name: "THE LITTLE MERMAID | REVIEW",
                     description: " Disney hasn’t half come a long way since Angela Lansbury and David Tomlinson shimmied a sub-marina two step back in 1971’s Bedknobs and Broomsticks. Gone are the two-dimensional toons and hand-drawn backdrops. This is the post-Avatar world of CGI wizardry. Rob Marshall’s new take on Hans Christian Anderson’s The Little Mermaid, by way of Disney’s beloved 1989 animation, follows hot on the heels of James Cameron’s Way of the Water in this respect and achieves a feat that must once have seemed impossible. Which is to say: to film a technically brilliant underwater musical...",
-                    category: "TopHollywoodSmall",
+                    category: "Top Holly",
                     date: "13/08/2023"
                   },
                   {
@@ -528,7 +528,7 @@ const ContextStore = (props) => {
                     image: "https://thefilm742.files.wordpress.com/2023/05/img_9320.jpg?w=768&h=425&crop=1",
                     name: "LOVE AGAIN | REVIEW",
                     description: " Priyanka Chopra and Sam Heughan have chemistry. It’s bubbly, believable and worth rooting for. That’s half of the battle in any rom com and a casting coup for James C. Strouse’s Love Again – which, ironically, features Chopra’s real life husband, Nick Jonas, as the world’s worst date. You can’t make this stuff up. Chopra plays Mira Ray, a children’s book illustrator beset by grief, following the tragic death of her near-fiancé John (Arinzé Kene) two years prior...",
-                    category: "TopHollywoodSmall",
+                    category: "Top Holly",
                     date: "13/08/2023"
                   },
                   {
@@ -536,7 +536,7 @@ const ContextStore = (props) => {
                     image: "https://thefilm742.files.wordpress.com/2023/05/img_9289.jpg?w=768&h=425&crop=1",
                     name: "GUARDIANS OF THE GALAXY: VOL. 3 | REVIEW",
                     description: " Marvel could really do with a win round about now. Bringing audiences back after a finale called “Endgame” was always going to be a tough sell. Even so, the lack of a gathering momentum in post-pandemic era of the studio’s Cinematic Universe has been conspicuous. While Doctor Strange set a strong ball rolling, there was a stumble in Thor’s stride and a downright limp in Ant-Man’s. Throw in a Jonathan Majors shaped scandal and increasing dependency on nostalgia headlining and the marvel rather begins to lose its -lous. Still, the so-called Multiverse Saga remains in early days. Perhaps a septet of intergalactic rejects can turn things around yet...",
-                    category: "TopHollywoodSmall",
+                    category: "Top Holly",
                     date: "13/08/2023"
                   },
                   {
@@ -544,7 +544,7 @@ const ContextStore = (props) => {
                     image: "https://thefilm742.files.wordpress.com/2023/05/img_9176.jpg?w=768&h=425&crop=1",
                     name: "THE UNLIKELY PILGRIMAGE OF HAROLD FRY | REVIEW",
                     description: " Rachel Joyce translates her first novel into her first screenplay with The Unlikely Pilgrimage of Harold Fry. There’s more than a touch of the Jonas Jonassonian to the tale, in which a dull pensioner traverses the length and breadth of Britain on foot. Fry boasts fewer comic spikes than Jonasson’s 100 year-old man but is no less eccentric, his story just as strangely believable an anecdote of very human quirk. Joyce’s ponderous words find happy union in the thoughtful eye of Hettie Macdonald, one half of the directing duo behind lockdown hit Normal People, and lush cinematography of Kate McCullough. The plotting is somber and steady but offers much welcome breathing space to appreciate the minutiae of English beauty, town and country alike...",
-                    category: "TopHollywoodSmall",
+                    category: "Top Holly",
                     date: "13/08/2023"
                   },      
                   
