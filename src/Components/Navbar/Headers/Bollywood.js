@@ -87,9 +87,13 @@ const Bollywood = () => {
                                     })}
 
                                 <div className="foradvertisement">
-                                    <p className="advertisementP2">
-                                            <img className="advertisementP2" src="https://img0.junaroad.com/scraps/scrapgif_5e19803ed2fa1a3efe750d7d-1578729534.gif" alt="AddImg"></img>
-                                    </p>
+                                        {cdata.filter((item) => item.category === 'BollyImg1').map((item, index) => {
+                                            return(
+                                                <p className="advertisementP2" key={index}>
+                                                        <img className="advertisementP2" src={item.image} alt="AddImg"></img>
+                                                </p>
+                                            )
+                                        })}
                                 </div>
 
                                 <h1 className="theh1"> South_Gossip- </h1><br/>
@@ -114,9 +118,13 @@ const Bollywood = () => {
 
 
                                 <div className="foradvertisement">
-                                    <p className="advertisementP2">
-                                            <img className="advertisementP2" src="https://i.pinimg.com/originals/b0/19/e1/b019e16e7f49b66d21a33a95090a4f42.gif" alt="AddImg"></img>
-                                    </p>
+                                        {cdata.filter((item) => item.category === 'BollyImg2').map((item, index) => {
+                                            return(
+                                                <p className="advertisementP2" key={index}>
+                                                        <img className="advertisementP2" src={item.image} alt="AddImg"></img>
+                                                </p>
+                                            )
+                                        })}
                                 </div>
                                 
                                     

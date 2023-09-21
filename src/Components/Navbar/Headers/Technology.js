@@ -89,9 +89,13 @@ const Technology = () => {
                                         })}
 
                                     <div className="foradvertisement">
-                                        <p className="advertisementP2">
-                                                <img className="advertisementP2" src="https://mailbakery.s3.amazonaws.com/wp-content/uploads/2015/06/26160350/sprout-social.gif" alt="AddImg"></img>
-                                        </p>
+                                        {cdata.filter((item) => item.category === 'TechImg1').map((item, index) => {
+                                            return(
+                                                <p className="advertisementP2" key={index}>
+                                                        <img className="advertisementP2" src={item.image} alt="AddImg"></img>
+                                                </p>
+                                            )
+                                        })}
                                     </div>
 
                                     <h1 className="theh1"> Technology- </h1><br/>
@@ -118,9 +122,13 @@ const Technology = () => {
 
 
                                     <div className="foradvertisement">
-                                        <p className="advertisementP2">
-                                                <img className="advertisementP2" src="https://www.apple.com/newsroom/images/product/iphone/lifestyle/Apple_iPhone-11-and-iPhone-11-Pro-reviews_091719_inline.gif.large.gif" alt="AddImg"></img>
-                                        </p>
+                                        {cdata.filter((item) => item.category === 'TechImg2').map((item, index) => {
+                                            return(
+                                                <p className="advertisementP2" key={index}>
+                                                        <img className="advertisementP2" src={item.image} alt="AddImg"></img>
+                                                </p>
+                                            )
+                                        })}
                                     </div>
                                     
                                         

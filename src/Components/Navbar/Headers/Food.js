@@ -89,9 +89,13 @@ const Food = () => {
                                         })}
 
                                     <div className="foradvertisement">
-                                        <p className="advertisementP2">
-                                                <img className="advertisementP2" src="https://i.pinimg.com/originals/9b/16/44/9b16447fd407833e6e0761dcabc92e46.gif" alt="AddImg"></img>
-                                        </p>
+                                        {cdata.filter((item) => item.category === 'FoodImg1').map((item, index) => {
+                                            return(
+                                                <p className="advertisementP2" key={index}>
+                                                        <img className="advertisementP2" src={item.image} alt="AddImg"></img>
+                                                </p>
+                                            )
+                                        })}
                                     </div>
 
                                     <h1 className="theh1"> Other_Foods- </h1><br/>
@@ -118,9 +122,13 @@ const Food = () => {
 
 
                                     <div className="foradvertisement">
-                                        <p className="advertisementP2">
-                                                <img className="advertisementP2" src="https://storage.pixteller.com/designs/designs-videos/2090558-5fe0b83524270/thumb.gif" alt="AddImg"></img>
-                                        </p>
+                                        {cdata.filter((item) => item.category === 'FoodImg2').map((item, index) => {
+                                            return(
+                                                <p className="advertisementP2" key={index}>
+                                                        <img className="advertisementP2" src={item.image} alt="AddImg"></img>
+                                                </p>
+                                            )
+                                        })}
                                     </div>
                                     
                                         

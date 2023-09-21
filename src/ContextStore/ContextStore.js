@@ -1062,7 +1062,80 @@ const ContextStore = (props) => {
                     category: "LatestImg",
                     date: "13/08/2023"
                   },
+
+
+                  /////////////////////////// Advertisement Images ///////////////////////////
+                  {
+                    image: "https://cdn.dribbble.com/users/5297140/screenshots/13995477/media/3769cfb75e2e53734862cc0a3bc1c732.gif",
+                    category: "HomeImg1"
+                  },
+                  {
+                    image: "https://static.wixstatic.com/media/5f69f7_6e9dedfe508244e8a1f2734a39236821~mv2.gif",
+                    category: "HomeImg2"
+                  },
+                  {
+                    image: "https://i.pinimg.com/originals/b0/19/e1/b019e16e7f49b66d21a33a95090a4f42.gif",
+                    category: "BollyImg2"
+                  },
+                  {
+                    image: "https://img0.junaroad.com/scraps/scrapgif_5e19803ed2fa1a3efe750d7d-1578729534.gif",
+                    category: "BollyImg1"
+                  },
+                  {
+                    image: "https://mailbakery.s3.amazonaws.com/wp-content/uploads/2015/06/26160350/sprout-social.gif",
+                    category: "TechImg1"
+                  },
+                  {
+                    image: "https://www.apple.com/newsroom/images/product/iphone/lifestyle/Apple_iPhone-11-and-iPhone-11-Pro-reviews_091719_inline.gif.large.gif",
+                    category: "TechImg2"
+                  },
+                  {
+                    image: "https://media.tenor.com/kmtDPEtCbh4AAAAM/animated-banner-animated-gif.gif",
+                    category: "HollyImg1"
+                  },
+                  {
+                    image: "https://media.tenor.com/TJ9CXB8Q9XMAAAAM/black-friday-sale-black-friday.gif",
+                    category: "HollyImg2"
+                  },
+                  {
+                    image: "https://cdn.dribbble.com/users/5245759/screenshots/11294208/media/fa6a3326356fd9ab86892ee2036eb22f.gif",
+                    category: "FitnessImg1"
+                  },
+                  {
+                    image: "https://i.pinimg.com/originals/e0/c5/04/e0c50400782d0cd7b1bfe6f200606692.gif",
+                    category: "FitnessImg2"
+                  },
+                  {
+                    image: "https://i.pinimg.com/originals/9b/16/44/9b16447fd407833e6e0761dcabc92e46.gif",
+                    category: "FoodImg1"
+                  },
+                  {
+                    image: "https://storage.pixteller.com/designs/designs-videos/2090558-5fe0b83524270/thumb.gif",
+                    category: "FoodImg2"
+                  },
+
+                  ///////////////////// Footer Icon Images //////////////////////////
                   
+                  {
+                    image: "https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-instagram-new-square2-512.png",
+                    name: 'Instagram',
+                    category: "FooterIcon1"
+                  },
+                  {
+                    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpFt4Hfav-44Qi-RvgXuP2uJbErtN1prswGkj8wlSGfe13Ek8l3aCwk3xOoC1NN6DSvBc&usqp=CAU",
+                    name: 'facebook',
+                    category: "FooterIcon2"
+                  },
+                  {
+                    image: "https://cdn-icons-png.flaticon.com/256/174/174857.png",
+                    name: 'Linkdine',
+                    category: "FooterIcon3"
+                  },
+                  {
+                    image: "https://static.vecteezy.com/system/resources/thumbnails/017/396/822/small/youtube-icon-social-media-apps-free-png.png",
+                    name: 'Youtube',
+                    category: "FooterIcon4"
+                  },
     ])
     return(
         <>

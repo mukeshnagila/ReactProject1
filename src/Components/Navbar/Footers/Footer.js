@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import {NavLink} from "react-router-dom";
 import LastFooter from "./LastFooter";
+import { store } from "../../../ContextStore/ContextStore";
 
 function Footer(){
+
+    const [cdata] = useContext(store);
+    console.log(cdata);
 
     const scrollToTop = () => {
         window.scrollTo({
@@ -23,10 +27,34 @@ function Footer(){
                         <h4>Email: nagilamukesh43@gmail.com</h4>
                         <h4>Address: Pithoragarh, Uttrakhand</h4>
                         <div className="icons">
-                            <a href="https://www.instagram.com/nagilabhai/"><img src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-instagram-new-square2-512.png" alt="instaimg"></img></a>
-                            <a href="https://www.facebook.com/mukesh.nagila.9"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpFt4Hfav-44Qi-RvgXuP2uJbErtN1prswGkj8wlSGfe13Ek8l3aCwk3xOoC1NN6DSvBc&usqp=CAU" alt="instaimg"></img></a>
-                            <a href="https://www.linkedin.com/in/mukesh-nagila-989775255/"><img src="https://cdn-icons-png.flaticon.com/256/174/174857.png" alt="instaimg"></img></a>
-                            <a href="https://www.youtube.com/channel/UC0KGSCNE-RF1CLY3gUmop8A"><img src="https://static.vecteezy.com/system/resources/thumbnails/017/396/822/small/youtube-icon-social-media-apps-free-png.png" alt="instaimg"></img></a>
+                                        {cdata.filter((item) => item.category === 'FooterIcon1').map((item, index) => {
+                                            return(
+                                                <>
+                                                    <a href="https://www.instagram.com/nagilabhai/"><img src={item.image} alt="instaimg"></img></a>
+                                                </>
+                                            )
+                                        })}
+                                        {cdata.filter((item) => item.category === 'FooterIcon2').map((item, index) => {
+                                            return(
+                                                <>
+                                                    <a href="https://www.facebook.com/mukesh.nagila.9"><img src={item.image} alt="instaimg"></img></a>
+                                                </>
+                                            )
+                                        })}
+                                        {cdata.filter((item) => item.category === 'FooterIcon3').map((item, index) => {
+                                            return(
+                                                <>
+                                                    <a href="https://www.linkedin.com/in/mukesh-nagila-989775255/"><img src={item.image} alt="instaimg"></img></a>
+                                                </>
+                                            )
+                                        })}
+                                        {cdata.filter((item) => item.category === 'FooterIcon4').map((item, index) => {
+                                            return(
+                                                <>
+                                                    <a href="https://www.youtube.com/channel/UC0KGSCNE-RF1CLY3gUmop8A"><img src={item.image} alt="instaimg"></img></a>
+                                                </>
+                                            )
+                                        })}
                         </div>
                     </div>
                     <div className="Fbox2">
