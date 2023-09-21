@@ -67,7 +67,7 @@ const Fitness = () => {
                                             )
                                         })}
                                     </div><br/><hr/>
-                                        {cdata.filter((item) => item.category === "TopFitnessSmall").map((item, index) => {
+                                        {cdata.filter((item) => item.category === "Top FitnessS").map((item, index) => {
                                             return(
                                                 <div key={index}>
                                                     <div className="smalltopblog">

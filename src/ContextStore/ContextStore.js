@@ -709,7 +709,7 @@ const ContextStore = (props) => {
                     image: "https://www.bluecoatsports.co.uk/wp-content/uploads/2018/09/bodypump.jpg.webp",
                     name: "Fitness Classes At Bluecoat Sports",
                     description: "We’re delighted to have reopened our doors to our members to use our fully equipped gym in Horsham, swimming pool and rackets sports, as well as our indoor workout classes. We have been working hard behind the scenes to make Bluecoat Sports as safe as possible and were thrilled to welcome back our members just in time to get fit this summer!",
-                    category: "TopFitnessSmall",
+                    category: "Top FitnessS",
                     date: "13/08/2023"
                   },
                   {
@@ -717,7 +717,7 @@ const ContextStore = (props) => {
                     image: "https://www.bluecoatsports.co.uk/wp-content/uploads/2021/03/Exercise-Running.png.webp",
                     name: "How Exercise Can Improve Mental Health",
                     description: "It’s a well known fact that exercise and physical activity is good for our physical health, helping us to lose weight, build muscle and keep ourselves generally fit and healthy. However, the pandemic has highlighted the fact that exercise is also a great way to improve mental health During these uncertain and unprecedented times, regularly exercising and taking part in physical activity can not only help to improve your physical fitness whilst your day to day movements are reduced, it can also help to improve your mood and reduce stress.",
-                    category: "TopFitnessSmall",
+                    category: "Top FitnessS",
                     date: "13/08/2023"
                   },
                   {
@@ -725,7 +725,7 @@ const ContextStore = (props) => {
                     image: "https://www.bluecoatsports.co.uk/wp-content/uploads/2021/12/Winter-exercise.png.webp",
                     name: "How To Exercise In Winter",
                     description: "Finding the motivation to stay active can be difficult at the best times, and when the nights draw in and the temperature falls it can be more tempting than ever to hang up the workout gear and retreat to the comfort of the sofa. However, with a little focus and dedication you could find the ideal routine to keep those endorphins pumping and your body healthy over the cold winter months.",
-                    category: "TopFitnessSmall",
+                    category: "Top FitnessS",
                     date: "13/08/2023"
                   },
                   {
@@ -733,7 +733,7 @@ const ContextStore = (props) => {
                     image: "https://www.bluecoatsports.co.uk/wp-content/uploads/2018/09/gym-service-tile-1-516x344.jpg.webp",
                     name: "A Beginner’s Guide To Joining The Gym",
                     description: "Joining the gym for the first time can be an exciting but daunting experience, as it can be quite hard to know what to expect. We’re here to reassure you that there’s nothing scary about joining the gym and to give you the confidence you need to turn up and achieve your goals. Below, we have put together some of the most important things to consider when joining a gym, as well as answers to some of the most frequently asked questions we get about the gym.",
-                    category: "TopFitnessSmall",
+                    category: "Top FitnessS",
                     date: "13/08/2023"
                   },      
                   
