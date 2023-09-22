@@ -22,6 +22,7 @@ function AllRoutes(){
           top: 0,
           behavior: "smooth", 
         });
+        SetMenuOpen(false);
       };
 
   return(
